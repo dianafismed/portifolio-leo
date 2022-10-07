@@ -1,0 +1,58 @@
+/*        FONTS       */
+
+
+
+/*        COLORS        */
+:root{
+  --body-color: #000;
+  --primary-color: rgb(78, 241, 37);
+  --secondary-color: rgb(13, 85, 25);
+  --hover-color: white;
+
+}
+
+/*        GENERAL       */
+body{
+  background-color: var(--body-color);
+}
+
+h1{color: var(--primary-color);}
+h2{color: var(--primary-color);}
+p{color: whitesmoke;}
+
+main{
+  padding: 20px;
+  margin: 80px 15px;
+  border: 2px solid var(--secondary-color);
+  border-radius: 5px;
+}
+
+#menu{
+  justify-content: right; 
+  padding-right: 20px;
+}
+
+#nav-menu a{color: var(--primary-color);}
+#nav-menu a:hover{color: var(--hover-color);}
+
+.medias{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.medias a{
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 25px;
+  color: var(--primary-color);
+}
+
+section{
+  border-bottom: 1px solid var(--secondary-color);
+  position: relative;
+}
+
+section i{justify-content: right;}
+
+header{margin-top: 80px;}
+
